@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import aboutPic from "../../../ProjectPhotos/IMG_7758.jpg"
+
 
 type Props = {};
 
@@ -24,9 +26,9 @@ export default function About({}: Props) {
         }}
         whileInView={{ x: 0 }}
         viewport={{ once: true }}
-        src="https://lh3.googleusercontent.com/RIxNfyc4-hYe_aaJN4a3s2sv7-KCFLvcXMap6XOTEXsJ94vW-9zyaIeg2vHW60EW4UuMyNTXrOBKbnswxOSxEbrOMFfUvB5zIQcI2ZzV72WVKaaeKvLmZbHjRHpURGYk7uKcCEuBa73PEJONDAV6uP-x2ddTFze1IQ7ATBKNLm1P3nqYJEPepclR-NvGTNEzZjorhNGUYz8vCvsJcrGLzL91nL7jqIXNNaGMhSlLQ7j6eWmn-hhcR7bD4ZO6OHhW39C0A1wkF7S_TUDDyzEE5n7IKTRKvrxTqV7o_-l18yRnN5XtzaJ6QW00zmrOsAAlf8_nhVTc3eL2cOErjOlaC_QlePSr5QqnzrYHo7BAr5l8aUdGwBWoZvn6noHjGVDWYnyVSTOQBJh227xia0bVPEivTFy56HE3RUzEglIXKV9-9oI2scoLuVQAaIPVeei6oEhPz85QuebMxI0zB2IsvgVt9xnowJmZk7nAYspQGqKP2Xw8XxFjrs-XLKdnD5TXjMNzOtqTmhJ6f_uRw7I9KvAiYzcAksTjvBqlQNoShwDtclzx_X2nMnL-Bn8AbahXoKz8afksPFN-chNGcscuqWbr5_r8IuPriEhibwmBNwIasV9ibD1kj3ma9LISLbk8bPHq9C3tTW3xnYsmeWaaJRoh6TBSTa3POFvXE8MuO9MZGNca2Lcpqoe_6DBl0BrFenYZ5oQI0M5pUKOFHMo3Tktiv6gXCh9FeSDmGrDfcNlXZ1oxwpwNgMy4Z-6DTfl3VzR4APObne4a-L8UiSj1H1kOMduw1CWgLcoKWPl_EqR-DC8nzjKhA4HiXxYEVlY7Ak3ySQdVemYXr78igxHdJteiZHtg1eGXQZV1Ms4db6CNrUFVdDjjgn4o8y1MrT-ee83Usfd_S6MKgPpHjXgtoIRhdSCYuFTx70j6q57Roif5BiOXO_S6BQrM6YW_neSTLDOaFEhao1INRUsDJZPB-3zqxMrqJ551BPgB5sDPBC614kG-Xn5GHVNB-zISBbKAz1YAgyW1DdITZ74GZRv1xQr997S3WBSe4sUt4QN6lFU2KCjviAKdXIc_SoUsc-0=w776-h1035-s-no?authuser=0"
+        src="https://imgur.com/lbHAhY8.jpg"
         className="-mb-20 md:mb-0 flex-shrink-0 w-64 h-64 rounded-full object-cover 
-        md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        md:rounded-lg md:w-64 md:h-95 xl:w-[420px] xl:h-[520px]"
       />
 
       <div className="space-y-10 px-0 md:px-10">
