@@ -17,6 +17,10 @@ module.exports = {
         'non-photo-blue' : '#addfde',
         'mint-green' : '#c1e3e3',
         'anti-flash-white' : '#eaebed',
+        'dark-blue' : '#1b2430',
+        'light-slate' : '#78a6c8',
+        'off-white' : '#e9eef2',
+        'sailing-red' : '#e65c4f'
       },
       fontFamily: {
         'inter' : ['Inter', 'sans-serif']

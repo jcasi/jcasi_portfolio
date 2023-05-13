@@ -13,7 +13,7 @@ export default function About({}: Props) {
       transition={{ duration: 1 }}
       className="flex flex-col relative h-screen font-inter text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-moonstone text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-light-slate text-2xl">
         About
       </h3>
 
@@ -32,7 +32,7 @@ export default function About({}: Props) {
       />
 
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-anti-flash-white text-4xl font-semibold">
+        <h4 className="text-off-white text-4xl font-semibold">
           Background
         </h4>
         <p className="text-base text-justify">

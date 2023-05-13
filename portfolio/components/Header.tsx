@@ -27,17 +27,17 @@ export default function Header({}: Props) {
         <SocialIcon
           className="cursor-pointer"
           network="email"
-          fgColor="#98dad9"
+          fgColor="#78a6c8"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://linkedin.com/in/jcasi"
-          fgColor="#98dad9"
+          fgColor="#78a6c8"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://github.com/jcasi"
-          fgColor="#98dad9"
+          fgColor="#78a6c8"
           bgColor="transparent"
         />
       </motion.div>

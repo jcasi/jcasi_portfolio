@@ -25,26 +25,26 @@ export default function Hero({}: Props) {
         className="relative rounded-full h-128 w-128 mx-auto object-cover"
       />
       <div>
-        <h2 className="text-sm uppercase text-moonstone pb-2 tracking-[15px]">
+        <h2 className="text-sm uppercase text-light-slate pb-2 tracking-[15px]">
           Software engineer
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
-          <span className="mr-3 text-anti-flash-white">{text}</span>
-          <Cursor cursorColor="#98dad9" />
+          <span className="mr-3 text-off-white">{text}</span>
+          <Cursor cursorColor="#78a6c8" />
         </h1>
 
         <div className="py-2">
           <Link href="#about">
-            <button className="heroButton">About</button>
+            <button className="heroButton text-light-slate">About</button>
           </Link>
           <Link href="#experience">
-            <button className="heroButton">Experience</button>
+            <button className="heroButton text-light-slate">Experience</button>
           </Link>
           <Link href="#skills">
-            <button className="heroButton">Skills</button>
+            <button className="heroButton text-light-slate">Skills</button>
           </Link>
           <Link href="#projects">
-            <button className="heroButton">Projects</button>
+            <button className="heroButton text-light-slate">Projects</button>
           </Link>
         </div>
       </div>

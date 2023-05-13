@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="bg-charcoal text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className="bg-dark-blue text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
         <title>@jcasi</title>
       </Head>
@@ -27,8 +27,6 @@ export default function Home() {
       <section id="about" className="snap-center">
         <About />
       </section>
-
-      {/* Experience */}
 
       {/* Skills */}
       <section id="skills" className="snap-start">
