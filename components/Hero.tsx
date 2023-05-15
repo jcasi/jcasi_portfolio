@@ -1,7 +1,6 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Image from "next/image";
-import profilePic from "/photos/49660324_2317161091846301_3676182097715789824_n.jpg";
 import Link from "next/link";
 
 type Props = {};
@@ -20,9 +19,11 @@ export default function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden font-inter">
       <Image
-        src={profilePic}
+        src="/profilepic.jpg"
+        width={384}
+        height={384}
         alt="Photo of the author"
-        className="relative rounded-full h-128 w-128 mx-auto object-cover"
+        className="relative rounded-full mx-auto object-cover"
       />
       <div>
         <h2 className="text-sm uppercase text-light-slate pb-2 tracking-[15px]">
