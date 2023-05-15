@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import aboutPic from "../../../ProjectPhotos/IMG_7758.jpg"
+import aboutPic from "/photos/IMG_7758.jpg"
 
 
 type Props = {};

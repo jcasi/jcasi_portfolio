@@ -1,7 +1,7 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Image from "next/image";
-import profilePic from "../../ProjectPhotos/49660324_2317161091846301_3676182097715789824_n.jpg";
+import profilePic from "/photos/49660324_2317161091846301_3676182097715789824_n.jpg";
 import Link from "next/link";
 
 type Props = {};
