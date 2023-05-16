@@ -18,12 +18,10 @@ export default function Hero({}: Props) {
 
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden font-inter">
-      <Image
-        src="/profilepic.jpg"
-        width={384}
-        height={384}
-        alt="Photo of the author"
-        className="relative rounded-full mx-auto object-cover"
+      <img
+      className="relative rounded-full h-128 w-128 mx-auto object-cover"
+      src="/profilepic.jpg"
+      alt="Photo of the author"
       />
       <div>
         <h2 className="text-sm uppercase text-light-slate pb-2 tracking-[15px]">
