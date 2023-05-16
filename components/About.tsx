@@ -25,7 +25,7 @@ export default function About({}: Props) {
         }}
         whileInView={{ x: 0 }}
         viewport={{ once: true }}
-        src="https://imgur.com/lbHAhY8.jpg"
+        src="/aboutpic.jpg"
         className="-mb-20 md:mb-0 flex-shrink-0 w-64 h-64 rounded-full object-cover 
         md:rounded-lg md:w-64 md:h-95 xl:w-[420px] xl:h-[520px]"
       />
