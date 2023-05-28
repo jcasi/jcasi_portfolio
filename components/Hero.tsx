@@ -10,18 +10,18 @@ export default function Hero({}: Props) {
     words: [
       "Hi, my name's James.",
       "This is my portfolio.",
-      "More coming soon...",
+      "Let's build something cool together.",
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 1500,
   });
 
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden font-inter">
       <img
-      className="relative rounded-full h-128 w-128 mx-auto object-cover"
-      src="/profilepic.jpg"
-      alt="Photo of the author"
+        className="relative rounded-full h-128 w-128 mx-auto object-cover"
+        src="/profilepic.jpg"
+        alt="Photo of the author"
       />
       <div>
         <h2 className="text-sm uppercase text-light-slate pb-2 tracking-[15px]">
