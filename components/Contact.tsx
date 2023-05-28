@@ -55,7 +55,7 @@ function Contact({}: Props) {
 
     if (isValidForm) {
       setButtonText("Sending");
-      const res = await fetch("/pages/api/sendgrid", {
+      const res = await fetch("/api/sendgrid", {
         body: JSON.stringify({
           email: email,
           name: name,
