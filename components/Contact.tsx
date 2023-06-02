@@ -91,7 +91,7 @@ function Contact({}: Props) {
       className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-200 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-light-slate text-2xl">
-        Contact
+        &nbsp;Contact
       </h3>
 
       <div className="container mx-auto my-20 w-1/3">
