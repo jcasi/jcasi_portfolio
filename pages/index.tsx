@@ -21,27 +21,27 @@ export default function Home() {
       <Header />
 
       {/* Hero */}
-      <section id="hero" className="snap-start">
+      <section id="hero" className="snap-end">
         <Hero />
       </section>
 
       {/* About */}
-      <section id="about" className="snap-start">
+      <section id="about" className="snap-end">
         <About />
       </section>
 
       {/* Skills */}
-      <section id="skills" className="snap-start">
+      <section id="skills" className="snap-end">
         <Skills />
       </section>
 
       {/* Projects */}
-      <section id="projects" className="snap-start">
+      <section id="projects" className="snap-end">
         <Projects />
       </section>
 
       {/* Contact */}
-      <section id="contact" className="snap-start">
+      <section id="contact" className="snap-end">
         <Contact />
       </section>
     </div>
