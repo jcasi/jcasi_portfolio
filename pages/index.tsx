@@ -21,7 +21,7 @@ export default function Home() {
       <Header />
 
       {/* Hero */}
-      <section id="hero" className="snap-end">
+      <section id="hero" className="snap-start py-4">
         <Hero />
       </section>
 
