@@ -25,12 +25,6 @@ export default function Header({}: Props) {
       >
         {/* icons */}
         <SocialIcon
-          className="cursor-pointer"
-          network="email"
-          fgColor="#78a6c8"
-          bgColor="transparent"
-        />
-        <SocialIcon
           url="https://linkedin.com/in/jcasi"
           fgColor="#78a6c8"
           bgColor="transparent"
