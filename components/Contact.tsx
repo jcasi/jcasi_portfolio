@@ -9,6 +9,12 @@ function Contact({}: Props) {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [visible, setVisible] = useState(false);
+
+  //toggle handling for message confirmation
+  const handleToggle = () => {
+    setVisible((current) => !current);
+  };
 
   //Validation state
   const [errors, setErrors] = useState({});
@@ -143,9 +149,11 @@ function Contact({}: Props) {
             <button
               type="submit"
               className="rounded bg-light-slate text-dark-blue px-4 py-2 font-semibold w-full"
+              onClick={handleToggle}
             >
               Send Message
             </button>
+            {visible && <p className="text-center text-xl">Message sent!</p>}
           </form>
         </div>
       </div>
