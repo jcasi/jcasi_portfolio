@@ -16,23 +16,31 @@ function Projects({}: Props) {
       </h3>
 
       <div className="flex space-x-4">
-        <h4 className="text-xl">Coming soon...</h4>
-        {/* Card1 
-        <div className="max-w-sm rounded overflow-hidden shadow-md">
-          <img
-            className="object-cover h-64 w-full"
-            src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?cs=srgb&dl=pexels-chevanon-photography-1108099.jpg&fm=jpg"
-          />
-          <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Canines Touching Grass</div>
-            <p className="text-anti-flash-white text-base">
-              Woof bark bark woof woof bark woof woof bark bark bark woof
-            </p>
+        {/* Card1 */}
+        <a
+          href="https://github.com/jcasi/ColorPicker_Extension.git"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="max-w-sm rounded overflow-hidden shadow-md">
+            <img
+              className="object-cover h-64 w-full"
+              src="picker_project.png"
+            />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">
+                Color Picker Extension
+              </div>
+              <p className="text-anti-flash-white text-base">
+                A color picker tool written in JavaScript for Google Chrome.
+                Lets users pick multiple colors from any webpage and stores
+                hex/RGB values.
+              </p>
+            </div>
           </div>
-        </div>
-
-        {/*  Card2  
-        <div className="max-w-sm rounded overflow-hidden shadow-md">
+        </a>
+        {/* Card2 */}
+        {/* <div className="max-w-sm rounded overflow-hidden shadow-md">
           <img
             className="object-cover h-64 w-full"
             src="https://images.pexels.com/photos/1444321/pexels-photo-1444321.jpeg?cs=srgb&dl=pexels-cats-coming-1444321.jpg&fm=jpg"
@@ -44,8 +52,7 @@ function Projects({}: Props) {
               <br />
             </p>
           </div>
-        </div>
-        */}
+        </div> */}
       </div>
     </motion.div>
   );
