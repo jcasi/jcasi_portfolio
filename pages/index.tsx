@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="bg-dark-blue text-off-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className="bg-dark-blue text-off-white h-screen overflow-auto">
       <Head>
         <title>@jcasi</title>
         <link rel="shortcut icon" href="/icon.ico" />
@@ -21,22 +21,22 @@ export default function Home() {
       <Header />
 
       {/* Hero */}
-      <section id="hero" className="snap-start">
+      <section id="hero">
         <Hero />
       </section>
 
       {/* About */}
-      <section id="about" className="snap-center">
+      <section id="about">
         <About />
       </section>
 
       {/* Skills */}
-      <section id="skills" className="snap-center">
+      <section id="skills">
         <Skills />
       </section>
 
       {/* Projects */}
-      <section id="projects" className="snap-start">
+      <section id="projects">
         <Projects />
       </section>
 
