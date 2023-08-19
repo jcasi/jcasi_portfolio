@@ -7,6 +7,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,8 @@ export default function Home() {
         <title>@jcasi</title>
         <link rel="shortcut icon" href="/icon.ico" />
       </Head>
+
+      <Analytics />
 
       <Header />
 
