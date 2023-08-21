@@ -19,7 +19,7 @@ export default function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden font-inter">
       <img
-        className="relative rounded-full h-128 w-128 mx-auto object-cover"
+        className="mx-auto object-cover relative rounded-full lg:h-128 lg:w-128 md:h-96 md:w-96 sm:h-64 sm:w-64"
         src="/profilepic.jpg"
         alt="Photo of the author"
       />
@@ -27,7 +27,7 @@ export default function Hero({}: Props) {
         <h2 className="text-sm uppercase text-light-slate pb-2 tracking-[15px]">
           Software engineer
         </h2>
-        <h1 className="text-5xl lg:text-5xl font-semibold scroll-px-10">
+        <h1 className="font-semibold scroll-px-10 lg:text-5xl md:text-2xl sm:text-xl">
           <span className="mr-3 text-off-white">{text}</span>
           <Cursor cursorColor="#78a6c8" />
         </h1>

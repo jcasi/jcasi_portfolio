@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-
 type Props = {};
 
 export default function About({}: Props) {
@@ -27,13 +26,13 @@ export default function About({}: Props) {
         viewport={{ once: true }}
         src="/aboutpic.jpg"
         className="-mb-20 md:mb-0 flex-shrink-0 w-64 h-64 rounded-full object-cover 
-        md:rounded-lg md:w-64 md:h-95 xl:w-[420px] xl:h-[520px]"
+        md:rounded-lg md:w-64 md:h-95 xl:w-[420px] xl:h-[520px] sm:rounded-lg"
       />
 
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-off-white text-4xl font-semibold">
+        {/* <h4 className="text-off-white text-4xl font-semibold">
           Background
-        </h4>
+        </h4> */}
         <p className="text-base text-justify">
           My name's James, and I'm a full-stack developer from Phoenix, Arizona.
           I've been around computers for as long as I can remember and my desire
