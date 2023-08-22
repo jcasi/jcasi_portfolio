@@ -12,7 +12,7 @@ export default function About({}: Props) {
 
       <div className="px-0 md:px-10 py-10 flex flex-col xl:flex-row md:flex-row sm:flex-row">
         <img
-          src="/icon.png"
+          src="/avatar.jpg"
           className="relative object-cover w-50 xl:w-96 xl:h-96 xl:pt-0 md:pt-0 md:w-80 md:h-80 sm:pt-0 sm:w-64 sm:h-64"
         />
         <p className="text-base text-justify space-y-10 pt-10">
